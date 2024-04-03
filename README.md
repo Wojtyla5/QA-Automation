@@ -8,7 +8,7 @@ Należy wówczas wybrać folder zawierający wszystkie pliki.
 
 3. Po otwarciu termianu należy wpisać w nim komendę "npx cypress open", która korzysta z otworzy nam warstwę UI programu Cypress, który jest narzędzie do automatyzacji testów frontendowych w aplikacjach webowych.
 
-4.Po otworzeniu się nowego okna Cypress należy wybrać zakładkę "E2E Testing"
+4. Po otworzeniu się nowego okna Cypress należy wybrać zakładkę "E2E Testing"
 
 5. Kolejno wybieramy przeglądarkę, na której to będziemy odpalać nasz projekt - rekomendowana to Google Chrome lub Mozilla Firefox.
 
