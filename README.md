@@ -6,12 +6,14 @@ Należy wówczas wybrać folder zawierający wszystkie pliki.
 
 2. Kolejnym krokiem będzie uruchomienie terminalu za pomocą zakładki "View", a kolejno "Terminal".
 
-3. Po otwarciu termianu należy wpisać w nim komendę "npx cypress open", która korzysta z otworzy nam warstwę UI programu Cypress, który jest narzędzie do automatyzacji testów frontendowych w aplikacjach webowych.
+3. Przed uruchomieniem Cypressa należy go najpierw zainstalować, dlatego po otwarciu termianu należy wpisać w nim polecenie  "npm install" 
 
-4. Po otworzeniu się nowego okna Cypress należy wybrać zakładkę "E2E Testing"
+4. Kolejno wpisujemy komendę "npx cypress open", która korzysta z otworzy nam warstwę UI programu Cypress, który jest narzędziem do automatyzacji testów frontendowych w aplikacjach webowych.
 
-5. Kolejno wybieramy przeglądarkę, na której to będziemy odpalać nasz projekt - rekomendowana to Google Chrome lub Mozilla Firefox.
+5. Po otworzeniu się nowego okna Cypress należy wybrać zakładkę "E2E Testing"
 
-6. Po otwarciu należy zlokalizwoać w zakładce "Specs"plik "firstTest.cy.js", a następnie kliknąc na niego.
+6. Kolejno wybieramy przeglądarkę, na której to będziemy odpalać nasz projekt - rekomendowana to Google Chrome lub Mozilla Firefox.
 
-7. Testy uruchamiają się prawidłowo logując się do strony internetowej https://www.edu.goit.global/account/login przy użyciu konkretncyh danych, a następnie następuje wylogowanie z każdego konta.
+7. Po otwarciu należy zlokalizwoać w zakładce "Specs"plik "firstTest.cy.js", a następnie kliknąc na niego.
+
+8. Testy uruchamiają się prawidłowo logując się do strony internetowej https://www.edu.goit.global/account/login przy użyciu konkretncyh danych, a następnie następuje wylogowanie z każdego konta.
