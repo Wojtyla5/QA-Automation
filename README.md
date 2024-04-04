@@ -8,7 +8,7 @@ Należy wówczas wybrać folder zawierający wszystkie pliki.
 
 3. Przed uruchomieniem Cypressa należy go najpierw zainstalować, dlatego po otwarciu termianu należy wpisać w nim polecenie  "npm install" 
 
-4. Kolejno wpisujemy komendę "npx cypress open", która korzysta z otworzy nam warstwę UI programu Cypress, który jest narzędziem do automatyzacji testów frontendowych w aplikacjach webowych.
+4. Kolejno wpisujemy komendę "npx cypress open", która korzysta otworzy nam warstwę UI programu Cypress, który jest narzędziem do automatyzacji testów frontendowych w aplikacjach webowych.
 
 5. Po otworzeniu się nowego okna Cypress należy wybrać zakładkę "E2E Testing"
 
