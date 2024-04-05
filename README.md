@@ -14,6 +14,6 @@ Należy wówczas wybrać folder zawierający wszystkie pliki.
 
 6. Kolejno wybieramy przeglądarkę, na której to będziemy odpalać nasz projekt - rekomendowana to Google Chrome lub Mozilla Firefox.
 
-7. Po otwarciu należy zlokalizwoać w zakładce "Specs"plik "firstTest.cy.js", a następnie kliknąc na niego.
+7. Po otwarciu należy zlokalizwoać w zakładce "Specs"plik "login.cy.js", a następnie kliknąc na niego.
 
 8. Testy uruchamiają się prawidłowo logując się do strony internetowej https://www.edu.goit.global/account/login przy użyciu konkretncyh danych, a następnie następuje wylogowanie z każdego konta.
