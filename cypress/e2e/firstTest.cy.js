@@ -16,5 +16,4 @@ describe ("Pierwszy blok testów", () => {
         cy.get(':nth-child(9) > .next-bve2vl').click()
     });
 
-
 });
