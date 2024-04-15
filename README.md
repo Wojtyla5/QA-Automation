@@ -6,14 +6,15 @@ Należy wówczas wybrać folder zawierający wszystkie pliki.
 
 2. Kolejnym krokiem będzie uruchomienie terminalu za pomocą zakładki "View", a kolejno "Terminal".
 
-3. Przed uruchomieniem Cypressa należy go najpierw zainstalować, dlatego po otwarciu termianu należy wpisać w nim polecenie  "npm install" 
+3. Należy teraz zainstalować pakiet npm, dlatego po otwarciu termianu należy wpisać w nim polecenie  "npm install"
 
-4. Kolejno wpisujemy komendę "npx cypress open", która korzysta otworzy nam warstwę UI programu Cypress, który jest narzędziem do automatyzacji testów frontendowych w aplikacjach webowych.
+4. Po ukończeniu instalacji pora na instalację Artillery w ten sam sposób, lecz używając do tego komendy "npm install -g artillery"
 
-5. Po otworzeniu się nowego okna Cypress należy wybrać zakładkę "E2E Testing"
+5. Aby upewnić się, że zainstalowano pomyślnie Artillery należy wpisać komendę "artillery dino" - w tym moencie powinien pojawić się dinozaur z symboli, który mówi “Artillery!”
 
-6. Kolejno wybieramy przeglądarkę, na której to będziemy odpalać nasz projekt - rekomendowana to Google Chrome lub Mozilla Firefox.
+6. Przygotowawszy całe środowisko można przejść do testów można je uruchomić - w tym celu wchodzimy w pasku bocznym znajdującym się w lewej stronie interfejsu i klikamy na folder "artillery"
 
-7. Po otwarciu należy zlokalizwoać w zakładce "Specs" plik "httpAPI.cy.js", a następnie kliknąć na niego.
+7. Wybieramy plik API.yml
 
-8. Wykonywane są testy dotyczące owego zadania domowego.
+8. W otwartym wcześniej terminalu odpalamy test wydajnościowy, podając przy tym lokalizację wywoływanego pliku, komenda wygląda więc następująco: 
+"artillery run artillery/API.yml" 
