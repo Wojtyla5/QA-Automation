@@ -1,0 +1,39 @@
+config:
+  target: "https://api.chucknorris.io"
+  phases:
+    - duration: 60
+      arrivalRate: 20
+      maxVusers: 10
+      name: Artillery Test
+  plugins:
+   ensure:
+    thresholds:
+      - http.response_time.p95: 10
+      - http.response_time.max: 2000
+    conditions:
+      - expression: vusers.failed == 0
+      - expression: "http.request_rate >= 2 and http.response_time.max < 600"
+
+scenarios:
+  - name: Getting a resource
+    flow:
+      - get:
+          url: "/jokes/random"
+          headers:
+            Content-Type: "application/json"
+      - think: 3
+   
+      - post:
+          url: "/custom/jokes"
+          headers:
+            Content-Type: "application/json"
+          json:
+            category: "animal"
+      - think: 3
+
+payloads:
+  - json: "./payloads/post_payload.json"
+
+hooks:
+  - beforeRequest: "./hooks/beforeRequest.js"
+
